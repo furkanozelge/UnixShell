@@ -156,6 +156,10 @@ supplied by the user; if `chdir` fails, that is also an error.
   should not be able to run any programs (except built-in commands). The
   `path` command always overwrites the old path with the newly specified
   path. 
+* `pwd`:  pwd command writes to standard output the full path name of your 
+   current directory (from the root directory). All directories are separated 
+   by a / (slash). The root directory is represented by the first /, and the 
+   last directory named is your current directory
 
 ### Redirection
 
